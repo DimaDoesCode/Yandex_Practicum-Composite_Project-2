@@ -1,25 +1,46 @@
-# Composite Project - 1
+# Composite Project - 2
 ## Data
 The following data is available:<br>
-<pre>Data Description:
- - Name - the title of the game
- - Platform - the platform the game was released on
- - Year_of_Release - the year of release
- - Genre - the genre of the game
- - NA_sales - sales in North America (millions of copies sold)
- - EU_sales - sales in Europe (millions of copies sold)
- - JP_sales - sales in Japan (millions of copies sold)
- - Other_sales - sales in other countries (millions of copies sold)
- - Critic_Score - the critic score (maximum 100)
- - User_Score - the user score (maximum 10)
- - Rating - the rating assigned by the Entertainment Software Rating Board (ESRB),
-            which determines the appropriate age category for computer games.
-Data for the year 2016 may be incomplete.</pre>
+Data Description:<br>
+<b>Technological Process:</b>
+- Rougher feed - raw material
+- Rougher additions (or reagent additions) - flotation reagents: Xanthate, Sulphate, Depressant
+    - Xanthate - xanthate (promoter or flotation activator)
+    - Sulphate - sulfate (sodium sulfide in this production)
+    - Depressant - depressant (sodium silicate)
+- Rougher process - flotation
+- Rougher tails - tailings
+- Float banks - flotation cells
+- Cleaner process - cleaning
+- Rougher Au - rougher gold concentrate
+- Final Au - final gold concentrate
+
+<b>Stage Parameters:</b>
+- air amount - air volume
+- fluid levels - liquid level
+- feed size - feed particle size
+- feed rate - feed rate
+
+<b>Feature Naming:</b></br>
+The feature names should be in the following format:
+`[stage].[parameter_type].[parameter_name]`
+Example: `rougher.input.feed_ag`
+Possible values for the `[stage]` block:
+- rougher - flotation
+- primary_cleaner - primary cleaning
+- secondary_cleaner - secondary cleaning
+- final - final characteristics</br>
+
+Possible values for the `[parameter_type]` block:
+- input - raw material parameters
+- output - product parameters
+- state - parameters describing the current stage's state
+- calculation - calculated characteristics
 
 ## Task
-The task is to identify patterns that determine the success of a game.
+Prepare a prototype of a machine learning model for 'Zyfra'. The company develops solutions for the efficient operation of industrial enterprises. The model should predict the gold recovery coefficient from gold-bearing ore.
 
-<a href="https://github.com/DimaDoesCode/Yandex_Practicum-Composite_Project-1/blob/master/composite_project-1/Composite_Project-1_fin.ipynb">To view the Jupyter Notebook code of the research, click on this link.</a>
+<a href="https://github.com/DimaDoesCode/Yandex_Practicum-Composite_Project-2/blob/master/composite_project-2/Composite_Project-2_fin.ipynb">To view the Jupyter Notebook code of the research, click on this link.</a>
 
 ## Libraries used
-<i>csv, IPython, io, matplotlib, numpy, os, pandas, requests, scipy, seaborn, sys, urllib</i>
+<i>catboost, json, matplotlib.pyplot, numpy, pandas, scipy, sklearn, time, warnings</i>
