@@ -4,7 +4,7 @@
 
 *Project Description*
 
-<img src="https://github.com/DimaDoesCode/Yandex_Practicum-Composite_Project-1/raw/master/gold_recovery.png" width="200" height="200" align="left"/>
+<img src="https://github.com/DimaDoesCode/Yandex_Practicum-Composite_Project-2/blob/master/gold_recovery.png" width="200" height="200" align="left"/>
 
 Prepare a prototype of a machine learning model for "Zyfra". The company develops solutions for the efficient operation of industrial enterprises.
 The model should predict the gold recovery coefficient from gold-bearing ore. You have access to data with mining and purification parameters.
