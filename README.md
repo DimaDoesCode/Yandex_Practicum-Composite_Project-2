@@ -10,8 +10,8 @@ Prepare a prototype of a machine learning model for "Zyfra". The company develop
 The model should predict the gold recovery coefficient from gold-bearing ore. You have access to data with mining and purification parameters.
 The model will help optimize production to avoid launching a facility with unprofitable characteristics.
 You need to:<br>
-◦ Prepare the data.
-◦ Conduct exploratory data analysis.
+◦ Prepare the data.<br>
+◦ Conduct exploratory data analysis.<br>
 ◦ Build and train the model.
 
 <br clear="left"/><br>*This project was completed during the learning process in Yandex.Practicum, in the Data Science Specialist profession.*
